@@ -5,9 +5,121 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  background-color: rgb(219, 211, 196);
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+.home {
+  text-align: center;
+}
+
+.home > h3 {
+  background-color: rgb(128, 155, 181);
+  border: solid;
+  border-radius: 3px;
+  width: 65%;
+  padding: 20px;
+  margin: 10px auto;
+}
+
+.MuiDataGrid-row {
+  background-color: rgb(255, 255, 255);
+}
+
+.MuiDataGrid-footerContainer {
+  background-color: rgb(128, 181, 148);
+  opacity: 60%;
+  border-radius: 3px;
+}
+
+.station {
+  text-align: center;
+}
+
+.station > div > h3 {
+  background-color: rgb(128, 155, 181);
+  border: solid;
+  border-radius: 3px;
+  padding: 20px;
+  margin-bottom: 10px;
+}
+
+.station > div > h4 {
+  background-color: rgb(128, 181, 148, 0.6);
+  border-radius: 2px;
+  border: 0.1px solid white;
+  padding: 10px;
+  width: 330px;
+  margin: auto;
+  font-weight: normal;
+}
+
+.styled-table {
+  background-color: rgb(255, 255, 255);
+  margin-left: auto;
+  margin-right: auto;
+  border-collapse:collapse;
+  border-bottom: 1px solid white;
+  border-top: 1px solid rgb(199, 176, 176);
+  border-right: 0px solid;
+  border-left: 0px solid;
+  font-size: 0.9em;
+  font-family: sans-serif;
+  min-width: 350px;
+  margin-bottom: 6px;
+}
+
+.styled-table th {
+  font-weight: normal;
+}
+
+.styled-table th,
+.styled-table td {
+  padding: 12px 23px;
+  border-collapse:collapse;
+  border-bottom: 1px solid rgb(199, 176, 176);
+  border-top: 1px solid rgb(199, 176, 176);
+  border-right: 0px solid;
+  border-left: 0px solid;
+}
+
+.inline-block {
+  color:black;
+  background-color: rgb(128, 181, 148, 0.6);
+  border-radius: 2px;
+  border: 0.1px solid white;
+  padding: 5px;
+  display: inline-block;
+  width: 340px;
+  height: 25px;
+  margin-top: -10px;
+  text-decoration: none;
+}
+
+.inline-block:hover {
+  color:white;
+}
+
+.close {
+  background-color: #f1f1f1;
+  color: black;
+  text-decoration: none;
+  border: 1px solid;
+  border-radius: 3px;
+  display: inline-block;
+  width: 165px;
+  padding: 8px 1px;
+  margin-top: 10px;
+}
+
+.close:hover {
+  background-color: #ddd;
+  color: black;
 }
