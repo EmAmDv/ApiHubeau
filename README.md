@@ -4,5 +4,5 @@
 npm start
 
 ### Liens utiles :
-Utilisation de l'outil React "Data Grid" de MUI : https://mui.com/x/react-data-grid/
-Lien vers l'API : https://hubeau.eaufrance.fr/page/api-temperature-continu
+* Utilisation de l'outil React "Data Grid" de MUI : https://mui.com/x/react-data-grid/
+* Lien vers l'API : https://hubeau.eaufrance.fr/page/api-temperature-continu
